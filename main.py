@@ -1,3 +1,10 @@
+angka = int(input("Masukkan angka: "))
+# Menggunakan pembagian bulat (//) dan perkalian (*)
+if (angka // 2) * 2 == angka:
+    print("GENAP")
+else:
+    print("GANJIL")
+
 while True:
     print("\n--- Program Cek Genap/Ganjil ---")
     input_user = input("Masukkan angka (ketik 'exit' untuk keluar): ")
