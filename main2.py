@@ -13,6 +13,11 @@ while True:
         print(fungsi.cek_huruf_konsonan(print("huruf konsonan /nMasukkan huruf = ")))
     if a == 4:
         print(fungsi.cek_merubah_capslock(print("merubah capslock /nMasukkan teks = ")))
+
+if pilihan == "berhenti":
+        print("program selesai, terimakasih")
+        break
+
         
               
     
